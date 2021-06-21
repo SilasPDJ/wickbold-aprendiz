@@ -7,6 +7,7 @@ from __pressb4 import press_key_b4 as pressb4
 def write_after_cod():
     while True:
         try:
+            sleep(1)
             a = pygui.getWindowsWithTitle("Devolução Cliente")[0]
             a.activate()
             break
